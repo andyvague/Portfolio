@@ -1,16 +1,31 @@
 .navbar-brand {
-	font-size: 1.8em;
+	font-size: 2.0em;
 }
 #topContainer { 
 	background-image:url("../images/tieglasses.jpg");
-	height: 400px;
 	width: 100%;
-	background-size: 100% cover;
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:center;
+	padding-top:40px;
 }
+
 #topRow {
 	margin-top: 100px;
+	margin-bottom: 100px;
 	text-align: center;
-	color: white;
+	color: grey;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+#details{
+	background-color: black;
+ 	width: 100%;
+ 	padding-top:40px;
+}
+
 }
 #topRow h1 {
 	font-size: 300%;
@@ -35,9 +50,10 @@
  }
  	 	
  #footer {
- 	 	 background-color:#B0D1FB;
+ 	 	 background-color:white;
  	 	 padding-top:40px;
  	 	 width:100%;
+
  }
  	 	
  .marginBottom {
@@ -45,4 +61,5 @@
  }
  .appstoreImage {
  	 	 width:250px;
+ 	 	 height: 250px;
 }
